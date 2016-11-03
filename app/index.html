@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rain Machine</title>
+</head>
+<body>
+    <h1>Rain Machine</h1>
+    <script>
+        (function() {
+            const script = document.createElement('script');
+            script.src = process.env.NODE_ENV === 'development' ? 'http://localhost:9000/dist/app.js' : './dist/app.js';
+            document.write(script.outerHTML);
+        }());
+    </script>
+</body>
+</html>
