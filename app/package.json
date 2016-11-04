@@ -1,0 +1,10 @@
+{
+  "name": "rain-machine",
+  "productName": "Rain Machine",
+  "version": "1.0.0",
+  "description": "A simple rain machine web app",
+  "main": "main.js",
+  "author": "Cobbleopolis",
+  "homepage": "https://github.com/Cobbleopolis/RainMachine.git",
+  "license": "MIT"
+}

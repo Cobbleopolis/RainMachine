@@ -4,7 +4,7 @@ var webpackTargetElectronRenderer = require('webpack-target-electron-renderer');
 var config = {
     entry: [
         'webpack-hot-middleware/client?reload=true&path=http://localhost:9000/__webpack_hmr',
-        './app/js/index',
+        './src/js/index',
         'script!jquery'
     ],
     devtool: 'eval',
@@ -35,9 +35,9 @@ var config = {
         ]
     },
     output: {
-        path: __dirname + '/dist',
-        publicPath: 'http://localhost:9000/dist/',
-        filename: 'app.js'
+        path: __dirname + '/app',
+        publicPath: 'http://localhost:9000/app/',
+        filename: 'js/app.js'
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],

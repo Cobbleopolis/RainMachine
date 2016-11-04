@@ -9,7 +9,7 @@
     <script>
         (function() {
             const script = document.createElement('script');
-            script.src = process.env.NODE_ENV === 'development' ? 'http://localhost:9000/dist/app.js' : '../dist/app.js';
+            script.src = process.env.NODE_ENV === 'development' ? 'http://localhost:9000/app/js/app.js' : 'js/app.js';
             document.write(script.outerHTML);
         }());
     </script>

@@ -44,4 +44,9 @@ jspm_packages
 .idea
 ### Project specific
 dist
-*-win32-x64
+app/**.eot
+app/**.svg
+app/**.ttf
+app/**.woff
+app/**.woff2
+app/js
